@@ -11,7 +11,3 @@ int main()
 	return 0;
 }
 
-void readstring(char str[])
-{
-	scanf("%s", str);
-}

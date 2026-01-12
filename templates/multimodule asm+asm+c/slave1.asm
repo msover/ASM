@@ -1,8 +1,7 @@
 bits 32
 extern _printf          ;_printf already exsists inside <stdio.h>
-extern _str             ;intended for use only inside slave
-global _slave1fun   ;intended for use inside both slave and master
-                        ;readstring method is not needed in this module
+extern _str             ;logic for _str resides in master.c
+global _slave1fun   ;logic for _slave1fun resides in slave1.asm
 segment data public data use32
 	message db 'Hello world!', 0
     

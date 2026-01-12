@@ -13,8 +13,3 @@ int main()
 	slave2fun(localstring);
 	return 0;
 }
-
-void readstring(char str[])
-{
-	scanf("%s", str);
-}
