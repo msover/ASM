@@ -11,7 +11,7 @@ segment code public code use32
         push ebp
         mov ebp,esp
         
-        push dword [esp + 8]
+        push dword [ebp + 8]
         call _printf
         add esp, 4 * 1
         
